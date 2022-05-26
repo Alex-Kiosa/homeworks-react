@@ -1,0 +1,44 @@
+.messageWrap {
+    width: 370px;
+    display: flex;
+    color: #fff;
+    align-items: end;
+}
+
+.avatar{
+    display: block;
+    width: 50px;;
+}
+
+.text{
+    flex-grow: 1;
+    margin-left: 5px;
+    padding: 10px 40px 20px 25px;
+    background: #002200;
+    border-radius: 5px 5px 5px 0;
+    position: relative;
+}
+
+.text::after{
+    content: "";
+    display: block;
+    position: absolute;
+    left: -10px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 15px solid #002200;
+    border-left: 10px solid transparent;
+}
+
+.name{
+    color: #85BEE4;
+    font-weight: bold;
+}
+
+.time{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    opacity: .5;
+}
