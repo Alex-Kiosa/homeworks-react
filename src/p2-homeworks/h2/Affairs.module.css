@@ -1,3 +1,11 @@
-.someClass {
+.affair{
+    margin-bottom: 10px;
+}
 
+.affairTitle {
+    margin-right: 10px;
+}
+
+.buttons button{
+    margin: 0 5px;
 }
