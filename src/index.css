@@ -46,17 +46,20 @@ input {
     border: 1px solid #199d54;
 }
 
-button{
+button {
     padding: 10px 15px;
     outline: none;
     border-radius: 5px;
     border: 1px solid #199d54;
     font-weight: 600;
+}
+
+button:not(button:disabled) {
     background-color: #48e88c;
     color: #212121;
 }
 
-button:hover{
+button:hover:not(button:disabled){
     background-color: #8dfdba;
     cursor: pointer;
 }
