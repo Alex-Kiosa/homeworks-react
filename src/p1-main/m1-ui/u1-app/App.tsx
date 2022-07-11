@@ -11,6 +11,7 @@ function App() {
     return (
         <div className={s.App}>
             <h1>React homeworks:</h1>
+            <div>Hello</div>
             {/*<HW1/>*/}
             {/*<HW2/>*/}
             {/*<HW3/>*/}
